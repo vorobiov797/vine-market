@@ -1,0 +1,107 @@
+body{
+font:400 16px/1.2 'Lato', Arial, sans-serif;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	width: 1000px;
+padding:0 20px 20px 20px;
+	margin-left: auto;
+border: 3px solid #47a3da;
+
+}
+.ba-box {
+	display:table;
+	text-align: center;
+}
+.vine-about {
+	    max-width: 300px;
+    min-height: 70px;
+    margin: 0 auto;
+    color: #47a3da;
+}
+.ba-header {
+	border-bottom: 3px solid #47a3da;
+margin: 0 0 20px 0;
+}
+
+h1 {
+	color: #47a3da;
+}
+a {
+	text-decoration: none;
+}
+.vine-price {
+	color:#cecece;
+	    margin: 10px 0;
+	    font-size:1.5em;
+}
+.plus {
+height:auto;
+width:21px;
+border-radius: 50%;
+	color:  #47a3da;
+	background:white;
+	text-align: center;
+
+	float:left;
+font-size:18px;
+margin-left: 4px;
+}
+.vine-drink-button {
+height:35px;
+width:60%;
+vertical-align: middle;
+background:  #47a3da;
+border:none;
+border-radius: 3px;
+color:white;
+}
